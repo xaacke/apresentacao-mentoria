@@ -1,0 +1,117 @@
+:root {
+    --verde-escuro: #025959;
+    --verde-agua: #027368;
+    --beje: #BFAC95;
+    --amarelo: #F29D52;
+    --cinza: #BFB6AE;
+  }
+  *{
+    text-decoration: none;
+  }
+
+  @font-face {
+    font-family: 'limo';
+    src: url('Champagne & Limousines') format('truetype');
+  }
+
+  body{
+    background: white;
+    font-family: "Trebuchet MS", helvetica, sans-serif;
+  }
+
+  main{
+    width: 900px;
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 450px;
+  }
+
+  header{
+    display: flex;
+    padding: 0;
+    width: 900px;
+  }
+  
+  h1{
+    color: var(--amarelo);
+    font-family: 'limo', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    padding-top: 10px;
+  }
+
+  #eu {
+    text-align: center;
+    width: 650px;
+  }
+
+  p{
+    color: rgb(41, 39, 39);
+  }
+
+  #foto{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+  }
+
+  #legenda{
+    text-align: center;
+    padding: 5px;
+    font-family: 'limo';
+    font-weight: bold;
+    color: var(--amarelo);
+  }
+
+
+  nav{
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+  }
+
+  nav > ul > li{
+    width: 800px;
+    height: 40px;
+    background: var(--verde-agua);
+    color: var(--amarelo);
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.507);
+  }
+  a {
+    color: white;
+  }
+
+
+  .menu a:hover {
+    width: 800px;
+    height: 40px;
+    display: block;
+    background: var(--verde-escuro);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  footer > ul > li{ 
+      display: inline;
+      padding: 0 20px;
+  }
+
+  ul #github a:hover,
+  ul #instagram a:hover,
+  ul #twitter a:hover,
+  ul #linledin a:hover{
+    background: #BFAC95;
+    color: var(--amarelo);
+  }
+  
+  
