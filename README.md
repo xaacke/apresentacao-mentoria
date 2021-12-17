@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-colocar site aqui 
+https://xaacke.github.io/apresentacao-mentoria/index.html 
 
 O site de apresentação foi feito para nivelar conhecimento entre as participantes do projeto de mentoria. Tem como foco as tags semânticas e o readme.
 
@@ -21,7 +21,7 @@ https://feministech.github.io/
 Pré-requisitos: 
 -Navegador padrão
 
--clicar no link do site
+-clicar no link do site: https://xaacke.github.io/apresentacao-mentoria/index.html
 
 
 # Autora
